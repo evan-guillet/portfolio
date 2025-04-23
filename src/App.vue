@@ -1,7 +1,23 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import PortfolioMain from './pages/PortfolioMain.vue'
+import Header from './components/PageHeader.vue'
+</script>
 
 <template>
-  <main></main>
+  <header>
+    <Header />
+  </header>
+  <main>
+    <PortfolioMain />
+  </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+header {
+  width: 100%;
+  line-height: 60px;
+}
+main {
+  width: 100%;
+}
+</style>
