@@ -30,8 +30,6 @@
 
 <style scoped>
 .cursor {
-  display: inline-block;
-  width: 1ch;
   animation: blink 1s step-start infinite;
   color: var(--white-50);
 }
